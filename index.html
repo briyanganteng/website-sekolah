@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SMK Negeri 1 Briyan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-flex">
+      <h1>SMK Negeri 1 Briyan</h1>
+      <nav>
+        <ul>
+          <li><a href="#profil">Profil</a></li>
+          <li><a href="#jurusan">Jurusan</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+          <li><a href="#formulir">Formulir</a></li>
+        </ul>
+      </nav>
+      <!-- Tombol Dark Mode di kanan atas -->
+      <button id="darkModeToggle" aria-label="Toggle Dark Mode">🌙</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Selamat Datang di Website Resmi</h2>
+      <p>SMK Negeri 1 Briyan – Sekolah Vokasi Berkualitas</p>
+      <a href="#profil" class="btn">Lihat Profil Sekolah</a>
+    </div>
+  </section>
+
+  <section id="profil" class="content">
+    <div class="container">
+      <h3>Profil Sekolah</h3>
+      <p>SMK Negeri 1 Briyan adalah institusi pendidikan menengah kejuruan yang berkomitmen untuk mencetak generasi muda yang kompeten dan siap bersaing di dunia industri. Dengan kurikulum yang terus diperbarui dan didukung oleh tenaga pengajar profesional, sekolah ini memberikan pendidikan yang berfokus pada keterampilan praktis serta pengembangan karakter.</p>
+      <p>Selain memiliki berbagai jurusan unggulan seperti Teknik Komputer, Rekayasa Perangkat Lunak, dan Multimedia, SMK Negeri 1 Briyan juga dilengkapi dengan fasilitas modern yang mendukung proses belajar mengajar secara optimal. Lingkungan sekolah yang kondusif dan program ekstrakurikuler yang variatif turut mendukung perkembangan potensi siswa secara menyeluruh.</p>
+    </div>
+  </section>
+
+  <section id="jurusan" class="content gray">
+    <div class="container">
+      <h3>Jurusan Unggulan</h3>
+      <ul>
+        <li>Teknik Komputer dan Jaringan</li>
+        <li>Rekayasa Perangkat Lunak</li>
+        <li>Desain Komunikasi Visual</li>
+        <li>Akuntansi dan Keuangan Lembaga</li>
+        <li>Perbankan Syariah</li>
+        <li>Perkantoran</li>
+        <li>Bisnis Retail</li>
+        <li>Bisnis Digital</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="kontak" class="content">
+    <div class="container">
+      <h3>Kontak Kami</h3>
+      <p>Email: briyanokafaizfahrezi@gmail.com</p>
+      <p>Telepon: 0831 0459 3747</p>
+      <p>Alamat: Jl. Parangtritis No.KM.11, Dukuh, Sabdodadi, Kec. Bantul, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55715</p>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.0493324861595!2d110.35305437425853!3d-7.889907978485644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7b00889ad8f84d%3A0x2e0009ca7815eaf0!2sSMK%20Negeri%201%20Bantul!5e0!3m2!1sid!2sid!4v1755583590458!5m2!1sid!2sid" 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Formulir Kontak -->
+  <section id="formulir" class="content">
+    <div class="container">
+      <h3>Formulir Kontak</h3>
+      <form id="contactForm">
+        <label for="nama">Nama:</label><br />
+        <input type="text" id="nama" name="nama" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="pesan">Pesan:</label><br />
+        <textarea id="pesan" name="pesan" rows="5" required></textarea><br /><br />
+
+        <button type="submit" class="btn">Kirim</button>
+      </form>
+      <p id="formMessage" style="margin-top: 10px;"></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SMK Negeri 1 Briyan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Tombol Scroll Up -->
+  <button id="scrollUpBtn" title="Scroll ke atas">⬆️</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
